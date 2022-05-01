@@ -8,6 +8,6 @@
     "rimraf": "^3.0.2"
   },
   "scripts": {
-    "build": "rimraf ./itables_jupyterlab/static && python ./copyAssets.py"
+    "build": "python ./copyAssets.py"
   }
 }
