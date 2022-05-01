@@ -1,0 +1,15 @@
+# Files in the static directory are generated at build time
+itables-jupyterlab/static
+
+# Node modules
+node_modules
+
+# Python build files
+*.egg-info
+__pycache__
+dist
+build
+
+# IDE
+.idea
+.vscode
