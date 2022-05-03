@@ -4,4 +4,4 @@ include copyAssets.py
 
 include package.json
 
-graft itables_jupyterlab/static
+graft jupyterlab_itables/static

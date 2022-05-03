@@ -6,13 +6,17 @@ from jupyter_packaging import (
 )
 
 
-NAME = "itables-jupyterlab"
+NAME = "jupyterlab_itables"
 here = Path(__file__).absolute().parent
-version = "0.1.0"
+version = "0.1.0a0"
 
 jstargets = [
-    here.joinpath(NAME, "static", "jquery"),
-    here.joinpath(NAME, "static", "datatables.net-dt")
+    here.joinpath(NAME, "static", "jquery", "LICENSE.txt"),
+    here.joinpath(NAME, "static", "jquery", "dist", "jquery.js"),
+    here.joinpath(NAME, "static", "datatables.net-dt", "License.txt"),
+    here.joinpath(NAME, "static", "datatables.net-dt", "css", "jquery.dataTables.min.css"),
+    here.joinpath(NAME, "static", "datatables.net-dt", "js", "dataTables.dataTables.min.js"),
+    here.joinpath(NAME, "static", "datatables.net-dt", "types", "dataTables.dataTables.d.ts")
 ]
 
 # Handle datafiles

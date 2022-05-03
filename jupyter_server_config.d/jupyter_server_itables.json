@@ -1,7 +1,7 @@
 {
     "ServerApp": {
         "jpserver_extensions": {
-            "itables_jupyterlab": true
+            "jupyterlab_itables": true
         }
     }
 }

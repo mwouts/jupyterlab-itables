@@ -1,5 +1,5 @@
 # Files in the static directory are generated at build time
-itables-jupyterlab/static
+jupyterlab_itables/static
 
 # Node modules
 node_modules
