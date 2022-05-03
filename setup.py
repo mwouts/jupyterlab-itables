@@ -13,6 +13,7 @@ version = "0.1.0a0"
 jstargets = [
     here.joinpath(NAME, "static", "jquery", "LICENSE.txt"),
     here.joinpath(NAME, "static", "jquery", "dist", "jquery.js"),
+    here.joinpath(NAME, "static", "jquery", "dist", "jquery.min.js"),
     here.joinpath(NAME, "static", "datatables.net-dt", "License.txt"),
     here.joinpath(NAME, "static", "datatables.net-dt", "css", "jquery.dataTables.min.css"),
     here.joinpath(NAME, "static", "datatables.net-dt", "js", "dataTables.dataTables.min.js"),
