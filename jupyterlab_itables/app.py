@@ -5,7 +5,7 @@ STATIC_ASSETS_PATH = Path(__file__).parent / "static"
 
 class DataTablesExtension(ExtensionApp):
 
-    name = "jupyterlab_itables"
+    name = "itables"
 
     # By listing the path to the assets here, jupyter_server
     # automatically creates a static file handler at
