@@ -7,5 +7,5 @@ static = Path(__file__).parent / "jupyterlab_itables" / "static"
 if static.exists():
     rmtree(static)
 
-for library in ['jquery', 'datatables.net-dt']:
+for library in ['jquery', 'datatables.net', 'datatables.net-dt']:
     copytree(node_modules / library, static / library)
