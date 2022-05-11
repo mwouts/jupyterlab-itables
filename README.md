@@ -1,16 +1,12 @@
-# A (tentative) Jupyter Lab extension for itables
+# A Jupyter Lab extension for itables
 
-This extension exposes the [jquery](https://jquery.com/) and 
-[datatables.net](https://datatables.net/) libraries
-as static libraries in Jupyter Lab.
+This extension exposes the [jquery](https://jquery.com/) and [datatables.net](https://datatables.net/) libraries and css as static files in Jupyter Lab.
 
-The purpose of doing this is to allow the 
-[itables](https://mwouts.github.io/itables) package to have an
-[offline mode](https://github.com/mwouts/itables/issues/70) in Jupyter Lab.
+The purpose of doing this is to allow the [itables](https://mwouts.github.io/itables) package to have an [offline mode](https://github.com/mwouts/itables/issues/70) in Jupyter Lab.
 
 Install it in the Python environment you use to launch Jupyter Lab with:
 ```shell
-pip install jupyterlab-itables==0.1.0a0
+pip install jupyterlab-itables
 ```
 
 Then relaunch Jupyter Lab with
@@ -21,7 +17,7 @@ jupyter lab
 Assuming that Jupyter Lab is running on port 8888, you will be able to access the static files at e.g.
 - http://localhost:8888/static/itables/jquery/dist/jquery.min.js
 - http://localhost:8888/static/itables/datatables.net-dt/css/jquery.dataTables.min.css
-- http://localhost:8888/static/itables/datatables.net-dt/js/dataTables.dataTables.min.js
+- http://localhost:8888/static/itables/datatables.net/js/jquery.dataTables.min.mjs
 
 # How to develop this extension
 

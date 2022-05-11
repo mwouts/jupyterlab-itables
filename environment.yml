@@ -6,6 +6,7 @@ dependencies:
   - jupyterlab>=3.3
   - nodejs
   - nb_conda_kernels
+  - requests
   - pip
   - twine
   - pip:
