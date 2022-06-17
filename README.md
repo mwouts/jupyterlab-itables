@@ -17,7 +17,7 @@ jupyter lab
 Assuming that Jupyter Lab is running on port 8888, you will be able to access the static files at e.g.
 - http://localhost:8888/static/itables/jquery/dist/jquery.min.js
 - http://localhost:8888/static/itables/datatables.net-dt/css/jquery.dataTables.min.css
-- http://localhost:8888/static/itables/datatables.net/js/jquery.dataTables.min.mjs
+- http://localhost:8888/static/itables/datatables.net/js/jquery.dataTables.mjs
 
 # How to develop this extension
 

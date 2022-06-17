@@ -4,6 +4,9 @@ jupyterlab_itables/static
 # Node modules
 node_modules
 
+# jquery
+jquery
+
 # Python build files
 *.egg-info
 __pycache__
